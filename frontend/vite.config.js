@@ -9,7 +9,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target:"https://chatapp-c4bd.onrender.com/login",
+        target:"https://chatapp-c4bd.onrender.com",
       },
     },
   },
